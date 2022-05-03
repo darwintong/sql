@@ -1,0 +1,1 @@
+select 'Truncate table'+'['+SCHEMA_NAME(SCHEMA_ID)+'].['+name+']' from sys.tables
